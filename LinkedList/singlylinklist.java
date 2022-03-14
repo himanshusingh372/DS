@@ -1,6 +1,6 @@
-package LinkedList;
+
 // implement linklist
-public class singlylinklist {
+public class Singlylinklist{
     private ListNode head;
 
     private static class ListNode{
@@ -24,7 +24,7 @@ public class singlylinklist {
 
     // Create linklist
     public static void main(String[] args) {
-        singlylinklist sll=new singlylinklist();
+        Singlylinklist sll=new Singlylinklist();
         sll.head=new ListNode(10);
         ListNode second =new ListNode(1);
         ListNode third =new ListNode(8);

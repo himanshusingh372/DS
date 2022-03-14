@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "."
+        ".",
+        "LinkedList",
+        "sorting"
     ]
 }
