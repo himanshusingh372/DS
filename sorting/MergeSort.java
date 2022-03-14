@@ -1,3 +1,5 @@
+package sorting;
+
 public class MergeSort
  {
    /* Java program for Merge Sort */
