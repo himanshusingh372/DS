@@ -22,6 +22,17 @@ public class Singlylinklist{
         System.out.print("null");
     }
 
+    // method for  count the length
+    public int length(){
+        int count=0;
+        ListNode current =head;
+        while(current!=null){
+            count++;
+            current=current.next;
+        }
+        return count;
+    }
+
     // Create linklist
     public static void main(String[] args) {
         Singlylinklist sll=new Singlylinklist();
@@ -38,7 +49,8 @@ public class Singlylinklist{
         fourth.next=fifth;
 
         sll.display();
-
+        System.out.println();
+        System.out.println(sll.length());
     }
 
     
