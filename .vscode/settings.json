@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
         ".",
+        "LinkedList",
         "sorting",
-        "LinkedList"
+        "DoubleLinkedlList",
+        "CircularLinkedList"
     ]
 }
