@@ -4,6 +4,7 @@
         "LinkedList",
         "sorting",
         "DoubleLinkedlList",
-        "CircularLinkedList"
+        "CircularLinkedList",
+        "Arrays"
     ]
 }
