@@ -1,6 +1,6 @@
 
 // implement linklist
-public class Singlylinklist{
+public class singlylinklist{
     private ListNode head;
 
     private static class ListNode{
@@ -35,7 +35,7 @@ public class Singlylinklist{
 
     // Create linklist
     public static void main(String[] args) {
-        Singlylinklist sll=new Singlylinklist();
+        singlylinklist sll=new singlylinklist();
         sll.head=new ListNode(10);
         ListNode second =new ListNode(1);
         ListNode third =new ListNode(8);
